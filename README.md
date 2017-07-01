@@ -9,6 +9,8 @@ All `ForEvolve.*` packages are available in my MyGet [NuGet V3 feed URL](https:/
 
 ## ASP.NET Core Projects
 ### ForEvolve .Net Core Framework
+[![forevolve MyGet Build Status](https://www.myget.org/BuildSource/Badge/forevolve?identifier=fbfabe8c-a7d7-4e60-9fbb-8d7627bc53d0)](https://www.myget.org/)
+
 [ForEvolve .Net Core Framework](https://github.com/ForEvolve/ForEvolve-Framework) is the main Framework and contains multiple projects like AspNetCore, ApplicationInsights and Azure helpers as well as a meta package that reference all the others (including DynamicInternalServerError).
 
 ### DynamicInternalServerError

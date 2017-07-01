@@ -8,6 +8,9 @@ All `ForEvolve.*` packages are available in my MyGet [NuGet V3 feed URL](https:/
 * The `*-omnicron-*` packages are not yet open sourced prerelease packages, but temporarily there for use. These will disappear and be replaced with an `*-upsilon-*` version once I am done organizing my ".NET core helpers" projet.
 
 ## ASP.NET Core Projects
+### ForEvolve .Net Core Framework
+[ForEvolve .Net Core Framework](https://github.com/ForEvolve/ForEvolve-Framework) is the main Framework and contains multiple projects like AspNetCore, ApplicationInsights and Azure helpers as well as a meta package that reference all the others (including DynamicInternalServerError).
+
 ### DynamicInternalServerError
 [![forevolve MyGet Build Status](https://www.myget.org/BuildSource/Badge/forevolve?identifier=a6353d8a-cc43-4e21-b226-c2ca715205ab)](https://www.myget.org/) 
 
@@ -18,7 +21,7 @@ More to come...
 
 ### Obsolete projects
 
-* [.NET core helpers](https://github.com/ForEvolve/dotnetcore) - this project is getting revamped!
+* [.NET core helpers](https://github.com/ForEvolve/dotnetcore) - this project is getting revamped and has been moved to [ForEvolve .Net Core Framework](https://github.com/ForEvolve/ForEvolve-Framework).
 
 ## Other stuff
 

@@ -15,12 +15,12 @@ It should be easier to use the ForEvolve Framework without knowing the packages 
 If you prefer fine-grained packages referencing, you can still do it.
 
 ### ForEvolve .Net Core Framework
-[![forevolve MyGet Build Status](https://www.myget.org/BuildSource/Badge/forevolve?identifier=fbfabe8c-a7d7-4e60-9fbb-8d7627bc53d0)](https://www.myget.org/)
+[![forevolve MyGet Build Status](https://www.myget.org/BuildSource/Badge/forevolve?identifier=fbfabe8c-a7d7-4e60-9fbb-8d7627bc53d0)](https://www.myget.org/F/forevolve/api/v3/index.json)
 
 [ForEvolve .Net Core Framework](https://github.com/ForEvolve/ForEvolve-Framework) is the main Framework and contains multiple projects like AspNetCore, ApplicationInsights and Azure helpers as well as a meta package that reference all the others (including DynamicInternalServerError).
 
 ### DynamicInternalServerError
-[![forevolve MyGet Build Status](https://www.myget.org/BuildSource/Badge/forevolve?identifier=a6353d8a-cc43-4e21-b226-c2ca715205ab)](https://www.myget.org/) 
+[![forevolve MyGet Build Status](https://www.myget.org/BuildSource/Badge/forevolve?identifier=a6353d8a-cc43-4e21-b226-c2ca715205ab)](https://www.myget.org/F/forevolve/api/v3/index.json) 
 
 [DynamicInternalServerError](https://github.com/ForEvolve/DynamicInternalServerError) is a middleware that convert `Exception` to json errors automatically; it also convert `BadRequest(ModelState)` action results to the same json format and is pluggable in Swagger [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore).
 

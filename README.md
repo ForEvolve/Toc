@@ -8,7 +8,7 @@ The `*-upsilon-*` packages are open source prerelease packages (you can also cal
 
 ## ASP.NET Core Projects
 ### ForEvolve MetaPackages (.Net Core Framework)
-VSTS: ![ForEvolve VSTS Build Status](https://forevolve.visualstudio.com/_apis/public/build/definitions/b800edd0-96da-46c1-a089-06a4466e62d9/17/badge)
+VSTS: [![ForEvolve VSTS Build Status](https://forevolve.visualstudio.com/_apis/public/build/definitions/b800edd0-96da-46c1-a089-06a4466e62d9/17/badge)](https://www.myget.org/F/forevolve/api/v3/index.json)
 
 [ForEvolve MetaPackages](https://github.com/ForEvolve/MetaPackages) simply reference the other ForEvolve .Net Core packages (`ForEvolve .Net Core Framework` and `DynamicInternalServerError`) 
 It should be easier to use the ForEvolve Framework without knowing the packages division.

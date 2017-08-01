@@ -10,14 +10,14 @@ The `*-upsilon-*` packages are open source prerelease packages (you can also cal
 ### ForEvolve MetaPackages (.Net Core Framework)
 VSTS: [![ForEvolve VSTS Build Status](https://forevolve.visualstudio.com/_apis/public/build/definitions/b800edd0-96da-46c1-a089-06a4466e62d9/17/badge)](https://www.myget.org/F/forevolve/api/v3/index.json)
 
-[ForEvolve MetaPackages](https://github.com/ForEvolve/MetaPackages) simply reference the other ForEvolve .Net Core packages (`ForEvolve .Net Core Framework` and `DynamicInternalServerError`) 
+[ForEvolve MetaPackages](https://github.com/ForEvolve/MetaPackages) simply reference the other ForEvolve .Net Core packages (all `ForEvolve .Net Core Framework` packages and both `DynamicInternalServerError` packages) 
 It should be easier to use the ForEvolve Framework without knowing the packages division.
 If you prefer fine-grained packages referencing, you can still do it.
 
 ### ForEvolve .Net Core Framework
 [![forevolve MyGet Build Status](https://www.myget.org/BuildSource/Badge/forevolve?identifier=fbfabe8c-a7d7-4e60-9fbb-8d7627bc53d0)](https://www.myget.org/F/forevolve/api/v3/index.json)
 
-[ForEvolve .Net Core Framework](https://github.com/ForEvolve/ForEvolve-Framework) is the main Framework and contains multiple projects like AspNetCore, ApplicationInsights and Azure helpers as well as a meta package that reference all the others (including DynamicInternalServerError).
+[ForEvolve .Net Core Framework](https://github.com/ForEvolve/ForEvolve-Framework) is the main Framework that contain multiple projects like AspNetCore, ApplicationInsights and Azure helpers.
 
 ### DynamicInternalServerError
 [![forevolve MyGet Build Status](https://www.myget.org/BuildSource/Badge/forevolve?identifier=a6353d8a-cc43-4e21-b226-c2ca715205ab)](https://www.myget.org/F/forevolve/api/v3/index.json) 

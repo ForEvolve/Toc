@@ -6,6 +6,11 @@ All `ForEvolve.*` packages are available in my MyGet [NuGet V3 feed URL](https:/
 
 The `*-upsilon-*` packages are open source prerelease packages (you can also call them alpha or pre-alpha but upsilon is way more fun).
 
+### How to use a custom NuGet feed?
+I wrote [How to use a custom NuGet feed in Visual Studio 2017](http://www.forevolve.com/en/articles/2017/08/06/how-to-use-a-custom-nuget-feed-in-visual-studio-2017/) article to help get started with the framwork.
+
+> MyGet feed URI: https://www.myget.org/F/forevolve/api/v3/index.json
+
 ## ASP.NET Core Projects
 ### ForEvolve MetaPackages (.Net Core Framework)
 VSTS: [![ForEvolve VSTS Build Status](https://forevolve.visualstudio.com/_apis/public/build/definitions/b800edd0-96da-46c1-a089-06a4466e62d9/17/badge)](https://www.myget.org/F/forevolve/api/v3/index.json)

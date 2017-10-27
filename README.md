@@ -32,7 +32,7 @@ If you prefer fine-grained packages referencing, you can still do it.
 ### AspNetCore Localization
 [![forevolve MyGet Build Status](https://www.myget.org/BuildSource/Badge/forevolve?identifier=b9aba5cc-96df-42d0-bf33-ed89456a6fdf)](https://www.myget.org/F/forevolve/api/v3/index.json)
 
-[AspNetCore Localization](https://github.com/ForEvolve/ForEvolve.AspNetCore.Localization) allows you to enable localization of Asp.Net Core 2.0 applications, including (especially) Data Attributes, in a few line of code. Supported languages are `English` and `French`, but contributions are welcome (I only know those two languages so I can't translate into more).
+[AspNetCore Localization](https://github.com/ForEvolve/ForEvolve.AspNetCore.Localization) allows you to enable localization of Asp.Net Core 2.0 applications, especially the validation attributes, in a few line of code. Supported languages are `English` and `French`, but contributions are welcome (I only know those two languages so I can't translate into more).
 
 ### Other
 More to come...

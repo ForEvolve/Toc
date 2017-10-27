@@ -29,12 +29,13 @@ If you prefer fine-grained packages referencing, you can still do it.
 
 [DynamicInternalServerError](https://github.com/ForEvolve/DynamicInternalServerError) is a middleware that convert `Exception` to json errors automatically; it also convert `BadRequest(ModelState)` action results to the same json format and is pluggable in Swagger [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore).
 
+### AspNetCore Localization
+[![forevolve MyGet Build Status](https://www.myget.org/BuildSource/Badge/forevolve?identifier=b9aba5cc-96df-42d0-bf33-ed89456a6fdf)](https://www.myget.org/F/forevolve/api/v3/index.json)
+
+[AspNetCore Localization](https://github.com/ForEvolve/ForEvolve.AspNetCore.Localization) allows you to enable localization of Asp.Net Core 2.0 applications, including (especially) Data Attributes, in a few line of code. Supported languages are `English` and `French`, but contributions are welcome (I only know those two languages so I can't translate into more).
+
 ### Other
 More to come...
-
-### Obsolete projects
-
-* [.NET core helpers](https://github.com/ForEvolve/dotnetcore) - this project is getting revamped and has been moved to [ForEvolve .Net Core Framework](https://github.com/ForEvolve/ForEvolve-Framework).
 
 ## Other repositories
 

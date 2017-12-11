@@ -40,4 +40,3 @@ More to come...
 ## Other repositories
 
 * [Visual Studio snippets](https://github.com/ForEvolve/vs-snippets) - this project contains some C# and Javascript snippets like "guard clause" (updated for VS2017) and "aaa comments" (arrage, act, assert).
-* [Postman test framework](https://github.com/ForEvolve/postman-tests-framework) - this project is a little Postman test framework to help avoid "messy-er" code. It allow to write test code like `myTarget.response.should.be.ok();` and `myTarget.response.should.be.fast();`.

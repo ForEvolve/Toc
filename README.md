@@ -4,6 +4,8 @@ This repo is the table of content of the `ForEvolve` projects.
 
 ## NuGet
 
+**[comming soon with v1.0.0]**
+
 All released packages are available on NuGet.org.
 
 To reference all application packages, you can `Install-Package ForEvolve.App`.

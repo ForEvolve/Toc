@@ -8,9 +8,11 @@ ForEvolve open source projects and everyone participating in it are governed by 
 
 ## How to contribute
 
-If you'd like to contribute, start by searching through the issues and pull requests to see whether someone else has raised a similar idea or question.
+If you'd like to contribute, **in the repository that contains the project**, start by searching through the issues and pull requests to see whether someone else has raised a similar idea or question.
 
-If you don't see your idea listed, and you think it fits into the goals of the project you are in, do one of the following:
+If you see your idea listed, feel free to join the discussion.
+
+If you don't see your idea listed, and you think it fits into the goals of the repository you are in, do one of the following:
 
 - If your contribution is minor, such as a typo fix, open a pull request.
 - If your contribution is major, such as a new feature, start by opening an issue first. That way, your idea can be validated and approved, and other people can weigh in on the discussion before you do any work.
@@ -24,10 +26,7 @@ If you don't see your idea listed, and you think it fits into the goals of the p
 
 ### Issue
 
-If possible, please use one of the following templates when opening an issue:
-
-- [Bug report](https://github.com/ForEvolve/Toc/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
-- [Feature request](https://github.com/ForEvolve/Toc/blob/master/.github/ISSUE_TEMPLATE/feature_request.md)
+If possible, please use one of the provided templates when opening an issue.
 
 ### Commit messages
 

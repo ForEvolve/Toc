@@ -8,8 +8,8 @@ This repo is the table of content of the `ForEvolve` projects.
 
 All released packages are available on NuGet.org.
 
-To reference all application packages, you can `Install-Package ForEvolve.App`.
-You can also reference packages individually, like `Install-Package ForEvolve.AspNetCore.Localization`.
+To reference all application packages, you can `Install-Package ForEvolve.App` or `dotnet add package ForEvolve.App`.
+You can also reference packages individually, like `Install-Package ForEvolve.AspNetCore.Localization` or `dotnet add package ForEvolve.AspNetCore.Localization`.
 
 ### Prerelease packages
 

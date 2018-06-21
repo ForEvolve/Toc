@@ -25,7 +25,7 @@ I wrote [How to use a custom NuGet feed in Visual Studio 2017](http://www.forevo
 
 ## .NET Standard Projects
 
-### ForEvolve MetaPackages (.Net Core Framework)
+### ForEvolve MetaPackages
 
 [![ForEvolve VSTS Build Status](https://forevolve.visualstudio.com/_apis/public/build/definitions/b800edd0-96da-46c1-a089-06a4466e62d9/17/badge)](https://www.myget.org/F/forevolve/api/v3/index.json)
 

@@ -4,8 +4,6 @@ This repo is the table of content of the `ForEvolve` projects.
 
 ## NuGet
 
-**[comming soon with v1.0.0]**
-
 All released packages are available on NuGet.org.
 
 To reference all application packages, you can `Install-Package ForEvolve.App` or `dotnet add package ForEvolve.App`.
@@ -15,7 +13,7 @@ You can also reference packages individually, like `Install-Package ForEvolve.As
 
 All prerelease packages are available in the following MyGet feed: [NuGet V3 feed](https://www.myget.org/F/forevolve/api/v3/index.json).
 
-You can see the `*-upsilon-*` packages as alpha or pre-alpha but upsilon is more original and fun imho. Until it cause too much confusion (if it does).
+~~You can see the `*-upsilon-*` packages as alpha or pre-alpha but upsilon is more original and fun imho. Until it cause too much confusion (if it does).~~ Moving forward, I will trade fun for usability; NuGet clients order those pre-release prefixes alphabetically, so using `upsilon` was a bad idea after all: `u[psilon]` comes after `a[lpha]`, `b[eta]`, `C[I]`, and `R[C]`.
 
 #### How to use a custom NuGet feed?
 
@@ -23,21 +21,24 @@ I wrote [How to use a custom NuGet feed in Visual Studio 2017](http://www.forevo
 
 > MyGet feed URI: https://www.myget.org/F/forevolve/api/v3/index.json
 
-## .NET Standard Projects
+## .NET Standard/Core Projects
 
 ### ForEvolve MetaPackages
 
-[![ForEvolve VSTS Build Status](https://forevolve.visualstudio.com/_apis/public/build/definitions/b800edd0-96da-46c1-a089-06a4466e62d9/17/badge)](https://www.myget.org/F/forevolve/api/v3/index.json)
+[![Build Status](https://forevolve.visualstudio.com/ForEvolve-Framework/_apis/build/status/ForEvolve.App)](https://forevolve.visualstudio.com/ForEvolve-Framework/_build/latest?definitionId=34)
 
-[ForEvolve MetaPackages](https://github.com/ForEvolve/MetaPackages) references the other ForEvolve packages. The test helpers (for unit, integration or ... testing) are not included in the MetaPackage since it is not needed for application code.
+[ForEvolve MetaPackages](https://github.com/ForEvolve/MetaPackages) contains the following metapackages:
 
-This package allows users to use the ForEvolve toolbox without knowing the packages division. If you prefer to reference packages individually, you can do it to; its up to you.
+#### ForEvolve.App
+The `ForEvolve.App` metapackage references other `ForEvolve.*` packages. The test helpers (for unit, integration or ... testing) are not included in the MetaPackage since they are not needed for application code (you can load them separatly).
+
+That package allows users to use the ForEvolve toolbox without knowing the packages division. If you prefer to reference packages individually, you can do it to; its up to you.
 
 ### ForEvolve Framework
 
 ![VSTS build build status](https://forevolve.visualstudio.com/_apis/public/build/definitions/fdc5922a-3dc1-4827-97a6-0f622b2fd497/26/badge)
 
-[ForEvolve Framework](https://github.com/ForEvolve/ForEvolve-Framework) is the main repository that contain multiple projects like AspNetCore, ApplicationInsights and Azure helpers, and DynamicInternalServerError. That project is a toolbox to boost productivity, I've centralized boilerplate code and utilities there.
+[ForEvolve Framework](https://github.com/ForEvolve/ForEvolve-Framework) is the main repository that contain multiple projects like AspNetCore helpers, ApplicationInsights, Azure helpers, and DynamicInternalServerError. That project is a toolbox to boost productivity, I've centralized boilerplate code and utilities there.
 
 Please visit the project repository for more information.
 
@@ -45,9 +46,9 @@ Please visit the project repository for more information.
 
 [![forevolve MyGet Build Status](https://www.myget.org/BuildSource/Badge/forevolve?identifier=b9aba5cc-96df-42d0-bf33-ed89456a6fdf)](https://www.myget.org/F/forevolve/api/v3/index.json)
 
-[AspNetCore Localization](https://github.com/ForEvolve/ForEvolve.AspNetCore.Localization) allows you to localized Asp.Net Core 2 validation attributes in a few line of code.
+[AspNetCore Localization](https://github.com/ForEvolve/ForEvolve.AspNetCore.Localization) allows you to localize Asp.Net Core 2 validation attributes in a few line of code.
 
-Supported languages are `English` and `French`, I only know those two languages so I can't translate into more. If you can translate messages into another language, feel free to contribute.
+There are a few supported languages already, including `English` and `French`. Doing a translation is very easy, so if your language is missing, feel free to contribute.
 
 Please visit the project repository for more information.
 

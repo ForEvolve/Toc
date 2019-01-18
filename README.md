@@ -57,6 +57,7 @@ Please visit the project repository for more information.
 - [Visual Studio snippets](https://github.com/ForEvolve/vs-snippets) - this project contains some C# and Javascript snippets like "guard clause" (updated for VS2017) and "aaa comments" (arrage, act, assert).
 - [Bootstrap 4.1 dark theme](https://github.com/ForEvolve/bootstrap-dark) is a Bootstrap 4.1 dark theme.
 - [Bootstrap 4.1 dark theme docs](https://github.com/ForEvolve/bootstrap-dark-docs) loads the `bootstrap-dark` theme in a tweaked Bootstrap documentation website to help validate use-cases.
+- [Scripts](https://github.com/ForEvolve/Scripts) offers useful scripts. As of today, it contains a script that allows creating a project and its test project (in their respective directory). See the repository's readme for more information. The PowerShell modules are also available on MyGet.
 
 ## How to contribute
 
